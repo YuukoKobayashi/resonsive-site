@@ -1,0 +1,57 @@
+/* Base
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+.block-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  background-image: url("../images/top.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+  @media (min-width: 769px) {
+    header {
+      height: 500px; } }
+
+#skills h1 {
+  margin-top: 20px;
+  font-size: 20px; }
+@media (min-width: 769px) {
+  #skills .container {
+    display: flex;
+    flex-direction: row; } }
+#skills .box {
+  background-color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 769px) {
+    #skills .box {
+      margin: 20px; } }
+  #skills .box .title {
+    background-color: #ddd;
+    padding: 10px; }
+  #skills .box .text {
+    padding: 20px; }
+
+footer {
+  background-color: #eee;
+  padding: 20px; }
+  footer a {
+    width: 60%;
+    background-color: #aaa;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=responsive.css.map */
